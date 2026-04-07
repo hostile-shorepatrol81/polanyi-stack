@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+title: "Tacit Skills"
+message: "If you use this project, please cite the repository and link to the GitHub Pages documentation."
+type: software
+authors:
+  - family-names: Yang
+    given-names: Yuxuan
+    alias: 11Yuxuanyang
+repository-code: "https://github.com/11Yuxuanyang/tacit-skills"
+url: "https://github.com/11Yuxuanyang/tacit-skills"
+abstract: "Open-source framework for converting tacit knowledge, expert judgment, and Michael Polanyi style tacit knowing into reusable AI agents, Codex skills, and training systems."
+keywords:
+  - tacit knowledge
+  - Michael Polanyi
+  - AI agents
+  - Codex skills
+  - expert judgment
+  - knowledge transfer
+license: MIT

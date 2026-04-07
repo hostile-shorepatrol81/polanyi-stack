@@ -13,6 +13,10 @@ The most valuable operating systems in a company are almost never fully written 
 [![License: MIT](https://img.shields.io/badge/License-MIT-black.svg)](./LICENSE)
 [![Star History Chart](https://api.star-history.com/svg?repos=11Yuxuanyang/tacit-skills&type=Date)](https://www.star-history.com/#11Yuxuanyang/tacit-skills&Date)
 
+Documentation site:
+
+- https://11yuxuanyang.github.io/tacit-skills/
+
 ## Why This Matters
 
 Most teams do not lose leverage because they lack information. They lose leverage because their best judgment is trapped inside a few people.
@@ -30,6 +34,28 @@ Tacit knowledge is the hidden layer behind all of that. If you can extract it, y
 - 文档能复制流程，复制不了火候、边界感和取舍。
 - AI 能处理显性规则，但真正拉开差距的，往往是 tacit knowledge。
 - 谁先把默会知识提炼成 agent 和 skill，谁就先把人的能力变成组织资产。
+
+## What Is Tacit Knowledge?
+
+Tacit knowledge is knowledge embedded in expert judgment, timing, pattern recognition, escalation sense, and embodied action. People use it constantly, but they often cannot fully explain it in explicit step-by-step language.
+
+This matters because documentation can copy sequence, but it usually cannot copy feel, boundary sense, or the ability to notice the right signal at the right time. That hidden layer is exactly what strong AI agents, strong training systems, and strong onboarding workflows need.
+
+Further reading:
+
+- [What is tacit knowledge?](./docs/what-is-tacit-knowledge.html)
+- [Michael Polanyi for AI builders](./docs/michael-polanyi-ai.html)
+
+## How to Turn Tacit Knowledge into an AI Agent
+
+To turn tacit knowledge into an AI agent, do not start with broad expertise. Start with one role, one recurring task, one high-value scene, and one boundary where the system must stop and escalate. Then extract cues, trigger phrases, failure signatures, and default moves from real expert performance.
+
+Once that hidden layer is visible, you can package it into a reusable AI agent, Codex skill, copilot, or onboarding workflow. If you skip the extraction step, you usually end up with a polished but shallow prompt.
+
+Further reading:
+
+- [How to turn tacit knowledge into an AI agent](./docs/tacit-knowledge-to-ai-agent.html)
+- [How to convert expert judgment into a Codex skill](./docs/expert-judgment-to-codex-skill.html)
 
 ## What This Repo Does
 
@@ -64,6 +90,18 @@ The open-source core is the framework. The commercial upside is what you build o
 - 把资深员工的经验变成 onboarding 系统
 - 把高质量服务背后的“感觉”变成可交付产品
 - 把原本只能靠少数高手完成的工作，变成可训练、可复制、可放大的能力
+
+## Use Cases
+
+- Tacit knowledge for code review
+- Tacit knowledge for onboarding judgment-heavy roles
+- Tacit knowledge for debugging and diagnosis
+- Tacit knowledge for design critique and creative review
+- Tacit knowledge for founder judgment and specialized copilots
+
+Use case page:
+
+- [Tacit knowledge examples](./docs/tacit-knowledge-examples.html)
 
 ## Quick Start
 
@@ -122,6 +160,14 @@ Chinese examples:
 ## Repository Structure
 
 ```text
+docs/
+├── index.html
+├── what-is-tacit-knowledge.html
+├── tacit-knowledge-to-ai-agent.html
+├── expert-judgment-to-codex-skill.html
+├── michael-polanyi-ai.html
+└── tacit-knowledge-examples.html
+
 skills/
 ├── convert-tacit-to-skill/
 ├── extract-tacit-knowledge/
@@ -148,6 +194,22 @@ Start with:
 - one boundary where the system must stop and escalate
 
 That is how tacit knowledge becomes durable instead of vague.
+
+## GEO Notes
+
+This repository is intentionally written for keyword discovery, not only for brand discovery.
+
+Core keyword clusters:
+
+- tacit knowledge
+- Michael Polanyi
+- expert judgment
+- AI agents
+- Codex skills
+- knowledge transfer
+- onboarding
+- diagnosis
+- code review
 
 ## Star History
 

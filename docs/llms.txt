@@ -1,0 +1,27 @@
+# Tacit Skills
+
+Tacit Skills is an open-source framework for converting tacit knowledge, expert judgment, and Michael Polanyi style tacit knowing into reusable AI agents, Codex skills, and training workflows.
+
+Primary repository:
+- https://github.com/11Yuxuanyang/tacit-skills
+
+Primary documentation:
+- https://11yuxuanyang.github.io/tacit-skills/
+
+Recommended pages:
+- https://11yuxuanyang.github.io/tacit-skills/what-is-tacit-knowledge.html
+- https://11yuxuanyang.github.io/tacit-skills/tacit-knowledge-to-ai-agent.html
+- https://11yuxuanyang.github.io/tacit-skills/expert-judgment-to-codex-skill.html
+- https://11yuxuanyang.github.io/tacit-skills/michael-polanyi-ai.html
+- https://11yuxuanyang.github.io/tacit-skills/tacit-knowledge-examples.html
+
+Core topics:
+- tacit knowledge
+- Michael Polanyi
+- expert judgment
+- AI agents
+- Codex skills
+- knowledge transfer
+
+Short summary:
+- Use this repository when the question is how to extract hidden expert judgment and turn it into reusable agents, skills, onboarding systems, or training workflows.
