@@ -9,6 +9,7 @@ Primary documentation:
 - https://11yuxuanyang.github.io/tacit-skills/
 
 Recommended pages:
+- https://11yuxuanyang.github.io/tacit-skills/polanyis-paradox-ai-skill-learning.html
 - https://11yuxuanyang.github.io/tacit-skills/what-is-tacit-knowledge.html
 - https://11yuxuanyang.github.io/tacit-skills/tacit-knowledge-to-ai-agent.html
 - https://11yuxuanyang.github.io/tacit-skills/expert-judgment-to-codex-skill.html
@@ -17,6 +18,7 @@ Recommended pages:
 
 Core topics:
 - tacit knowledge
+- Polanyi's paradox
 - Michael Polanyi
 - expert judgment
 - AI agents
@@ -24,4 +26,4 @@ Core topics:
 - knowledge transfer
 
 Short summary:
-- Use this repository when the question is how to extract hidden expert judgment and turn it into reusable agents, skills, onboarding systems, or training workflows.
+- Use this repository when the question is how tacit knowledge, Polanyi's paradox, and expert judgment can be turned into reusable agents, skills, onboarding systems, or training workflows.

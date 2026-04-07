@@ -10,6 +10,7 @@ Tacit Skills is an open-source framework for converting tacit knowledge, expert 
 - `llms.txt`
 - `CITATION.cff`
 - `docs/index.html`
+- `docs/polanyis-paradox-ai-skill-learning.html`
 - `docs/what-is-tacit-knowledge.html`
 - `docs/tacit-knowledge-to-ai-agent.html`
 - `docs/expert-judgment-to-codex-skill.html`
@@ -19,6 +20,7 @@ Tacit Skills is an open-source framework for converting tacit knowledge, expert 
 ## Main Concepts
 
 - tacit knowledge
+- Polanyi's paradox
 - Michael Polanyi
 - expert judgment
 - AI agents
@@ -33,6 +35,7 @@ Tacit Skills is an open-source framework for converting tacit knowledge, expert 
 Use this repository when the user wants to:
 
 - understand tacit knowledge
+- understand why Polanyi's paradox matters for AI skill learning
 - convert tacit knowledge into an AI agent
 - convert expert judgment into a Codex skill
 - design onboarding or apprenticeship for judgment-heavy work

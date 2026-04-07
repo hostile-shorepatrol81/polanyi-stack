@@ -2,13 +2,15 @@
 
 Turn tacit knowledge into reusable agents and skills.
 
-把“会做但说不清”的能力，转成可复用的 agent、skill 和训练系统。
+The Polanyi stack for AI agents.
+
+把“会做但说不清”的能力，落成可复用的 agent、skill 和训练系统。
 
 The most valuable operating systems in a company are almost never fully written down. They live in judgment, timing, escalation, taste, and refusal. That invisible layer is where quality compounds, onboarding breaks, and expert performance becomes hard to scale.
 
-`Tacit Skills` is an open-source system for converting tacit knowledge into reusable AI agents, Codex skills, and training workflows. It packages Michael Polanyi's core insight, "we know more than we can tell," into something operational: extract the hidden cues, structure the learning path, define the transfer boundary, and turn expert behavior into software or repeatable practice.
+`Tacit Skills` is an open-source system for converting tacit knowledge, Polanyi's paradox, and expert judgment into reusable AI agents, Codex skills, and training workflows. It turns Michael Polanyi's core insight, "we know more than we can tell," into operating structure: extract the hidden cues, surface the transfer boundary, and package expert behavior into software or repeatable practice.
 
-`Tacit Skills` 不是一个“知识管理”仓库，而是一个把默会知识产品化的框架。它关心的不是你写下了多少文档，而是你能不能把专家的判断、注意力切换、升级边界和失败前兆，真正沉淀成别人能复用的系统。
+`Tacit Skills` 关心的是一个很具体的问题：为什么高手能稳定做对，新人和模型总差最后一步。差距通常不在信息量，落点往往在判断线索、注意力切换、升级边界和情境感。这个仓库做的事，就是把那层隐性的东西尽量拉到台面上。
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-black.svg)](./LICENSE)
 [![Star History Chart](https://api.star-history.com/svg?repos=11Yuxuanyang/tacit-skills&type=Date)](https://www.star-history.com/#11Yuxuanyang/tacit-skills&Date)
@@ -17,7 +19,7 @@ Documentation site:
 
 - https://11yuxuanyang.github.io/tacit-skills/
 
-## Why This Matters
+## Why This Exists
 
 Most teams do not lose leverage because they lack information. They lose leverage because their best judgment is trapped inside a few people.
 
@@ -30,12 +32,22 @@ Tacit knowledge is the hidden layer behind all of that. If you can extract it, y
 
 中文直白版：
 
-- 多数团队的问题不是“没知识”，而是最值钱的判断只活在少数人脑子里。
+- 多数团队真正卡住的地方，在于最值钱的判断只活在少数人脑子里。
 - 文档能复制流程，复制不了火候、边界感和取舍。
 - AI 能处理显性规则，但真正拉开差距的，往往是 tacit knowledge。
 - 谁先把默会知识提炼成 agent 和 skill，谁就先把人的能力变成组织资产。
 
-## What Is Tacit Knowledge?
+## Why Polanyi's Paradox Matters for AI Skill Learning
+
+Polanyi 悖论把 AI 技能学习里最难的一层点了出来。人会的东西，很多并不以规则、条款、步骤的形式存在。它们藏在手感、时机、场景判断、例外处理和边界感里。自动化系统想稳定复现高手表现，迟早都会撞上这堵墙。
+
+这也是 AI skill 设计最值得盯住的地方。Skill 文件能承载目标、触发条件、流程、约束和输出格式。真正拉开差距的那部分，常常还在案例、演示、反馈和反复试错里。文档能写到哪，训练要接到哪，这条边界基本就是 Polanyi 边界。
+
+如果你要继续往下读，这里有一篇更完整的解释：
+
+- [Why Polanyi's paradox matters for AI skill learning](./docs/polanyis-paradox-ai-skill-learning.html)
+
+## What Tacit Knowledge Means Here
 
 Tacit knowledge is knowledge embedded in expert judgment, timing, pattern recognition, escalation sense, and embodied action. People use it constantly, but they often cannot fully explain it in explicit step-by-step language.
 
@@ -46,7 +58,7 @@ Further reading:
 - [What is tacit knowledge?](./docs/what-is-tacit-knowledge.html)
 - [Michael Polanyi for AI builders](./docs/michael-polanyi-ai.html)
 
-## How to Turn Tacit Knowledge into an AI Agent
+## How This Becomes an AI Agent
 
 To turn tacit knowledge into an AI agent, do not start with broad expertise. Start with one role, one recurring task, one high-value scene, and one boundary where the system must stop and escalate. Then extract cues, trigger phrases, failure signatures, and default moves from real expert performance.
 
@@ -57,7 +69,7 @@ Further reading:
 - [How to turn tacit knowledge into an AI agent](./docs/tacit-knowledge-to-ai-agent.html)
 - [How to convert expert judgment into a Codex skill](./docs/expert-judgment-to-codex-skill.html)
 
-## What This Repo Does
+## What You Can Build With It
 
 This repo gives you a fixed set of skills for turning invisible expertise into reusable assets.
 
@@ -70,7 +82,7 @@ This repo gives you a fixed set of skills for turning invisible expertise into r
 | `design-apprenticeship-transfer` | Builds mentor-led transfer and onboarding for tacit work |
 | `train-attention-switching` | Trains focal and subsidiary attention switching for diagnosis, debugging, review, and other expert work |
 
-## Commercial Use
+## Where It Gets Commercial
 
 This is not just a philosophy repo. It is a commercialization layer for expertise.
 
@@ -91,7 +103,7 @@ The open-source core is the framework. The commercial upside is what you build o
 - 把高质量服务背后的“感觉”变成可交付产品
 - 把原本只能靠少数高手完成的工作，变成可训练、可复制、可放大的能力
 
-## Use Cases
+## Where This Helps
 
 - Tacit knowledge for code review
 - Tacit knowledge for onboarding judgment-heavy roles
@@ -157,11 +169,12 @@ Chinese examples:
 帮我把我判断短视频开头好坏的经验，转成一个固定 agent，并定义清楚升级边界。
 ```
 
-## Repository Structure
+## What Lives In The Repository
 
 ```text
 docs/
 ├── index.html
+├── polanyis-paradox-ai-skill-learning.html
 ├── what-is-tacit-knowledge.html
 ├── tacit-knowledge-to-ai-agent.html
 ├── expert-judgment-to-codex-skill.html
@@ -195,13 +208,14 @@ Start with:
 
 That is how tacit knowledge becomes durable instead of vague.
 
-## GEO Notes
+## Topics This Repository Covers
 
-This repository is intentionally written for keyword discovery, not only for brand discovery.
+This repository is written to be found through real questions, not only through the project name.
 
 Core keyword clusters:
 
 - tacit knowledge
+- Polanyi's paradox
 - Michael Polanyi
 - expert judgment
 - AI agents

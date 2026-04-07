@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Why Polanyi's Paradox Matters for AI Skill Learning</title>
+    <meta name="description" content="Polanyi's paradox explains why AI skill learning struggles with expert judgment, context adaptation, embodiment, and out-of-distribution decisions.">
+    <link rel="canonical" href="https://11yuxuanyang.github.io/tacit-skills/polanyis-paradox-ai-skill-learning.html">
+    <meta name="robots" content="index,follow">
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <main class="shell">
+      <section class="hero">
+        <p class="eyebrow">Polanyi's Paradox</p>
+        <h1>Why Polanyi's paradox matters for AI skill learning</h1>
+        <p class="lede">Polanyi's paradox points to the hardest part of AI skill learning. People know far more than they can fully state. High-value expertise often lives in cues, timing, context shifts, and refusal boundaries rather than explicit rules.</p>
+        <p class="lede">这也是 AI 技能学习最容易卡住的地方。模型能吃进大量显性信息，能复述规则，能模仿表面形式。真正难的部分还在现场判断、细微信号、升级边界和分布外应对上。</p>
+        <nav class="nav">
+          <a href="./index.html">Home</a>
+          <a href="https://github.com/11Yuxuanyang/tacit-skills">GitHub</a>
+        </nav>
+      </section>
+
+      <section class="section">
+        <h2>The core tension</h2>
+        <p>Michael Polanyi's line, "we know more than we can tell," creates a direct problem for automation. Software likes explicit specification. Skilled performance often depends on things that are only partly explicit. The result is a structural gap between documentation and judgment.</p>
+        <p>放到 AI skill 设计里，这句话的意思很直接。你能写进 skill 文件的内容，只覆盖了能力的一部分。剩下那部分藏在案例、示范、环境反馈和长期调参里。文档之外还有一层活的东西。</p>
+      </section>
+
+      <section class="section">
+        <h2>Three recurring difficulties</h2>
+        <h3>1. Context adaptation stays hard</h3>
+        <p>Tasks that need common sense, improvisation, or boundary judgment break easily. The failure often appears when the environment shifts, when the case is slightly unusual, or when the operator has to decide whether to continue at all.</p>
+        <h3>2. Embodied and perceptual skill is expensive</h3>
+        <p>Perception and sensorimotor coordination carry huge hidden complexity. For humans, those layers feel effortless. For AI systems, they often demand massive training, tight feedback loops, and expensive sensing stacks.</p>
+        <h3>3. More data does not automatically close the gap</h3>
+        <p>Data helps, but it does not magically reveal the right abstraction. If the system never learns which cues matter, when to switch attention, or when to escalate, scale alone gives you a larger imitation engine, not a stronger operator.</p>
+      </section>
+
+      <section class="section">
+        <h2>What modern AI does in response</h2>
+        <p>Modern AI systems work around the paradox by learning from examples, collecting richer signals, and training across situations instead of relying on hand-written rules alone. That shift matters. It moves the problem from rule writing to representation, transfer, and out-of-distribution generalization.</p>
+        <p>这也是今天很多强模型的真实路线。它们从示例里归纳，从多模态信号里补上下文，从情境梯度里学迁移。难点没有消失，位置变了。战场从“规则写得全不全”转到了“泛化够不够稳”。</p>
+      </section>
+
+      <section class="section">
+        <h2>What this means for skill design</h2>
+        <p>Polanyi's paradox gives four direct design rules for AI skills.</p>
+        <ul>
+          <li>Start from repeated performance, not abstract theory.</li>
+          <li>Use skill files for goals, triggers, boundaries, and workflows.</li>
+          <li>Use examples, drills, and review loops for the part that cannot be fully scripted.</li>
+          <li>Test edge cases and escalation cases as aggressively as success cases.</li>
+        </ul>
+        <p>对做 agent 的人来说，这几条很实用。Skill 文件写的是骨架。真正让系统长出判断的部分，要靠案例、演示、模仿、反思和持续校正。你要交付一个能打的系统，光有 prompt 远远不够。</p>
+      </section>
+
+      <section class="section">
+        <h2>Can the paradox be overcome?</h2>
+        <p>The honest answer is partial progress, not total victory. Deep learning has already shown that machines can absorb patterns humans struggle to verbalize. At the same time, open-world judgment, social intuition, and creative boundary handling remain difficult. The paradox still stands. The practical move is to design around it instead of pretending it vanished.</p>
+      </section>
+
+      <section class="section">
+        <h2>Why this page exists</h2>
+        <p>This page sits at the center of the repository because it gives a clean frame for the entire project. It also doubles well as source material for essays, talks, and long-form posts about tacit knowledge, expert judgment, and AI agent design.</p>
+      </section>
+    </main>
+  </body>
+  </html>
